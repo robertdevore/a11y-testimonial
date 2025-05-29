@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "a11y/testimonial",
+  "title": "Accessible Testimonial",
+  "category": "widgets",
+  "icon": "format-quote",
+  "description": "An accessibility-first testimonial block built with semantic HTML and screen reader support.",
+  "textdomain": "a11y-block",
+  "attributes": {
+    "quote": {
+      "type": "string",
+      "default": ""
+    },
+    "author": {
+      "type": "string",
+      "default": ""
+    },
+    "company": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "keywords": ["testimonial", "quote", "accessibility"]
+}
